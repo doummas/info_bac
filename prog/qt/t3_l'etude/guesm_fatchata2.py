@@ -18,7 +18,7 @@ def ajouter():
         
 def maj(ch):
     i=0
-    while i<len(ch) and ("A"<+ch[i]<="Z" or ch[i]==" "):
+    while i<len(ch) and ("A"<=ch[i]<="Z" or ch[i]==" "):
         i+=1
     return i==len(ch)
 

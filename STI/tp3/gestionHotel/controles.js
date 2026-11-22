@@ -5,6 +5,7 @@ function changer(){
 
 
 function GenererCaptcha(){
+    document.getElementById("captcha").value = ""
     for (let i =0;i<10;i++){
     let x = Math.round(Math.random()*25)
     if (x%2==0){
@@ -13,8 +14,5 @@ function GenererCaptcha(){
     else if (x%2==1){
         document.getElementById("captcha").value += String.fromCharCode(x+97)
     }
-    if (document.getElementById("captcha").value.length == 20) {
-        document.getElementById("captcha").value = ""
-    }
-}
-}
+    
+    }}
