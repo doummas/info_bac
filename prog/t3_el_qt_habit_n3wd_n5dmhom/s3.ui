@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1119</width>
+    <height>895</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>50</y>
+     <width>181</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Nouveaux Message</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="L">
+   <property name="geometry">
+    <rect>
+     <x>340</x>
+     <y>50</y>
+     <width>521</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QListWidget" name="Li">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="B3">
+   <property name="geometry">
+    <rect>
+     <x>94</x>
+     <y>460</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Afficher msg.txt</string>
+   </property>
+  </widget>
+  <widget class="QTableWidget" name="T">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>200</y>
+     <width>201</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>msg1</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>msg2</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="B2">
+   <property name="geometry">
+    <rect>
+     <x>590</x>
+     <y>440</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>coder</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="B1">
+   <property name="geometry">
+    <rect>
+     <x>940</x>
+     <y>50</y>
+     <width>121</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ajouter</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
