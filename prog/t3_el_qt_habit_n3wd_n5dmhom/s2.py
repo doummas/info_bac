@@ -56,6 +56,7 @@ def affclient():
             win.T.setItem(i,2,QTableWidgetItem(e["ville"]))
             win.T.setItem(i,3,QTableWidgetItem(e["genre"]))
             win.T.setItem(i,4,QTableWidgetItem(e["etat"]))
+            i=i+1
         except :
             fin = True
     f.close()
