@@ -10,7 +10,7 @@ def pgcd(a,b):
         
 
 
-
+#yitgyuitiuttuytyt
 
 #2
 def chaine(ch):
