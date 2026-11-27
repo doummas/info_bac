@@ -89,7 +89,7 @@ function verif(){
     let ssss=Number(s) +Number(ss) +Number(sss)
     ch=""
     for(let i =0;i<ssss;i++){
-        ch+="\u2605 "
+        ch+="\u2605"
 
     }
     
