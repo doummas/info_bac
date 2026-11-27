@@ -14,8 +14,7 @@
 
 
 
-<img src="6.png" alt=""id="im">
-<form > 
+<img src="6.png" alt=""id="im" onmouseover="format()">
 	<table width="100%"  border="1">
       <tr>
         <td class="c">Hotel:</td>
@@ -29,23 +28,23 @@
       <tr>
         <td class="c">Accueil:</td>
         <td><span class="auto-style5">
-          <input name="accueil" type="radio" value="3" name="C[]"> Tres Satisfaisant
-          <input name="accueil" type="radio" value="2" name="C[]"> Satisfaisant
-          <input name="accueil" type="radio" value="1" name="C[]">Peu Satisfaisant</td>
+          <input  type="radio" value="3" name="a"> Tres Satisfaisant
+          <input  type="radio" value="2" name="a"> Satisfaisant
+          <input  type="radio" value="1" name="a">Peu Satisfaisant</td>
         </tr>
       <tr>
         <td class="c">restauration:</td>
         <td><span class="auto-style5">
-          <input name="restauration" type="radio" value="3"name="C[]"  >Tres Satisfaisant
-          <input name="restauration" type="radio" value="2"name="C[]"  >Satisfaisant
-          <input name="restauration" type="radio" value="1"name="C[]"  > Peu Satisfaisant</td>
+          <input type="radio" value="3" name="b"  >Tres Satisfaisant
+          <input type="radio" value="2" name="b"  >Satisfaisant
+          <input type="radio" value="1" name="b"  > Peu Satisfaisant</td>
       </tr>
       <tr>
         <td class="c">extra</td>
         <td>
-        <input  type="checkbox" id="extra1" style="width:20px;" value="4" name="C[]"  >Piscine couverte<br>
-        <input type="checkbox" id="extra2" style="width:20px;" value="2" name="C[]" >Plage Privé<br>
-        <input  type="checkbox" id="extra3" style="width:20px"  value="1" name="C[]" > Couverture Wifi</td>
+        <input  type="checkbox" id="extra1" style="width:20px;" value="4" name="c"  >Piscine couverte<br>
+        <input type="checkbox" id="extra2" style="width:20px;" value="2" name="c" >Plage Privé<br>
+        <input  type="checkbox" id="extra3" style="width:20px"  value="1" name="c" > Couverture Wifi</td>
       </tr>
       <tr>
         <td class="c">&nbsp;</td>
@@ -61,7 +60,7 @@
       <tr>
         <td class="c">&nbsp;</td>
         <td ><div>Réponse:
-            <input name="reponse" type="text"  id="rep"><span id="msg"></span>
+            <input name="reponse" type="text"  id="rep" onkeyup="captch()"><span id="msg"></span>
         </div></td>
       </tr>
       <tr class="c">
@@ -69,11 +68,10 @@
         <td>&nbsp;
             <input name="reset" type="reset" value="Annuler">
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <input name="submit" type="submit" value="Valider"></td>
+      <input name="button" type="submit" value="Valider" onclick="verif()"></td>
       
     </table>
 	<p align="center">&nbsp;</p>
-</form>
 <p id="msgfinal"></p>
 
 </body>
